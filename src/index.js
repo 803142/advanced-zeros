@@ -5,9 +5,8 @@ const counter=(lastP,lastMn,num)=>{     //COUNTING zeros
         num=Math.floor(num/lastMn);        
         count=count+num;
       }
-      console.log({lastMn,lastP,count});
-    return Math.floor(count/lastP);
-  }
+      return Math.floor(count/lastP);
+      }
 let lastP  = 1;                       //
 let lastMn = base;
 let num    = number; 
@@ -33,7 +32,7 @@ while (i <= (base/i)) {                   //looking for multipliers
 
       if (midle>count)count=midle;         
       }       
-    i++;
+i++;
 } 
   return count;
 }
